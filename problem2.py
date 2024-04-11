@@ -12,7 +12,9 @@
 # "the number is not an integer"
 
 n = float(input("a number: "))
-if n in range(pow(-10, 7), pow(10, 7)):
+n1 = round(n)
+if n1 == n:
     print("the number is an integer")
 else:
     print("the number is not an integer")
+

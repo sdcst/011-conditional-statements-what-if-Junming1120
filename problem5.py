@@ -29,3 +29,21 @@ Enter c: 8
 the equation can not be factored
 
 """
+import math
+a = float(input("Enter a: "))
+b = float(input("Enter b: "))
+c = float(input("Enter c: "))
+n = (b**2)-(4*a*c)
+if n < 0:
+    print("the equation can not be factored")
+elif n >= 0:
+    n = math.sqrt(n)
+    z = round(n)
+    if z == n:
+        print("the equation can be factored")
+    else:
+        print("the equation can not be factored")
+    
+
+    
+    
